@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Responsive</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#home" class="header-logo" data-aos="fade-down">
+                <i class="fa-solid fa-cube"></i>
+            </a>
+            <div class="header-actions" data-aos="fade-down" data-aos-delay="200">
+                <a href="#contact" class="btn-header-contact">Let's talk</a>
+                <button class="btn-icon" id="theme-toggle" aria-label="Ubah Tema">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <section id="home">
+                <aside class="social-links" data-aos="fade-right" data-aos-delay="600">
+                    <span>Follow On</span>
+                    <a href="https://www.instagram.com/h.vira_?igsh=MXhtb3VveWI5ZGJ0bA" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/safirasalsabila421" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/safira-khoirulanisa-salsabila-b3b833220" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </aside>
+                
+                <div class="hero-section">
+                    <img src="images/foto-profil.png" alt="Foto Profil" class="profile-img" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="hero-text" data-aos="fade-left" data-aos-delay="400">
+                        <p>Hello I'm</p>
+                        <h1>Safira Khoirulanisa Salsabila</h1>
+                        <h2>Data Enthusiast & Interest with Web development</h2>
+                        <a href="#about" class="btn btn-outline"> Hire Me <i class="fa-solid fa-user-check"></i></a>
+                    </div>
+                </div>
+                <a href="#about" class="scroll-indicator" data-aos="fade-up" data-aos-delay="800">
+                    <span>Scroll Down</span>
+                    <div class="mouse-icon"></div>
+                </a>
+            </section>
+
+            <section id="about" class="section">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>About Me</h2>
+                    <p>What I do</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                        <img src="images/foto-profil.png" alt="About Me Image">
+                    </div>
+                    <div class="about-text" data-aos="fade-left" data-aos-delay="400">
+                        <h3>I'm Data Enthusiast & <br/> Interest with Web Development</h3>
+                        <p>
+                            Hi, I'm Safira Khoirulanisa Salsabila, a passionate data enthusiast with a keen interest in web development. My goal is to leverage my skills in data analysis and web development to contribute to meaningful projects that have a positive impact on society. Let's connect and explore how we can work together to create something amazing!
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item" data-aos="fade-up" data-aos-delay="500">
+                                <span class="stat-number">6</span>
+                                <span class="stat-label">Month Of<br>Experience</span>
+                            </div>
+                            <div class="stat-item" data-aos="fade-up" data-aos-delay="600">
+                                <span class="stat-number">6</span>
+                                <span class="stat-label">Complete<br>Project</span>
+                            </div>
+                        </div>
+                        <div class="about-buttons" data-aos="fade-up" data-aos-delay="800">
+                            <a href="#contact" class="btn btn-outline">Hire Me <i class="fa-solid fa-user-check"></i></a>
+                            <a href="assets/cv.pdf" class="btn btn-primary" target="_blank" download >Download CV <i class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resume" class="section">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>My Resume</h2>
+                    <p>Combination Of Skills & Experience</p>
+                </div>
+                <div class="resume-tabs" data-aos="fade-up" data-aos-delay="200">
+                    <button class="tab-button active" data-target="#education-content"><i class="fa-solid fa-graduation-cap"></i> Education</button>
+                    <button class="tab-button" data-target="#experience-content"><i class="fa-solid fa-briefcase"></i> Experience</button>
+                    <button class="tab-button" data-target="#skills-content"><i class="fa-solid fa-shapes"></i> Personal Skills</button>
+                    <button class="tab-button" data-target="#certificates-content"><i class="fa-solid fa-certificate"></i> Certificates</button>
+                </div>
+                <div class="resume-content-container" data-aos="fade-up" data-aos-delay="400">
+                    <div id="education-content" class="resume-content active">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3>Associate degree student in Applied Statistics and Computing</h3>
+                                    <p>Universitas Negeri Semarang</p>
+                                    <span>2023 - Present</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3>Mathematics and Natural Science</h3>
+                                    <p>SMA Negeri 1 Toroh</p>
+                                    <span>2020 - 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="experience-content" class="resume-content">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3>Tim Media Rohis Al Ikhlas</h3>
+                                    <p>SMA Negeri 1 Toroh</p>
+                                    <span>Mei 2022 - Maret 2023</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3>Sie OP3K Gema Keakraban Civitas Matematika (GRAVIKA)</h3>
+                                    <p>Universitas Negeri Semarang</p>
+                                    <span>Agustus 2024 - September 2024</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3>Sie Komdis Sekolah Legislatif DPM KM UNNES 2024</h3>
+                                    <p>Universitas Negeri Semarang</p>
+                                    <span>Agustus 2024 - Oktober 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="skills-content" class="resume-content">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <h4>Soft Skills</h4>
+                                <span>Adaptability</span>
+                                <span>Communication</span>
+                                <span>Teamwork</span>
+                                <span>Listening Skills</span>
+                                <span>Networking</span>
+                                <span>Time Management</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Hard Skills</h4>
+                                <span>Data Analysis</span>
+                                <span>SQL</span>
+                                <span>Python</span>
+                                <span>R</span>
+                                <span>Data Visualization</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Tools</h4>
+                                <span>Microsoft Office</span>
+                                <span>Canva</span>
+                                <span>SPSS</span>
+                                <span>Figma</span>
+                                <span>RStudio</span>
+                                <span>MySQL Workbench</span>
+                                <span>VSCode</span>
+                                <span>Tableau</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="certificates-content" class="resume-content">
+                        <div class="certificates-gallery" id="certificates-gallery">
+                            <div class="certificate-item">
+                                <img src="images/revou.jpg" alt="Sertifikat Revou">
+                                <p>Intro to Software Engineering</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/dasar-visualisasi-data.jpg" alt="Sertifikat Dicoding">
+                                <p>Belajar Dasar Visualisasi Data</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/dasar-data-science.png" alt="Sertifikat Dicoding">
+                                <p>Belajar Dasar Data Science</p>
+                            </div>
+                            <div class="certificate-item"><img src="images/sql.png" alt="Sertifikat">
+                                <p>Belajar Dasar Structured Query Language (SQL)</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/python.png" alt="Sertifikat 5">
+                                <p>Memulai Pemrograman dengan Python</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/dasar-AI.png" alt="Sertifikat 6">
+                                <p>Dasar AI</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/copilot-in-bing.jpg" alt="Sertifikat 6">
+                                <p>Explore Generative AI with Copilot in Bing</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/fundamental-of-generative-ai.jpg" alt="Sertifikat 7">
+                                <p>Fundamentals of Generative AI</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/power-bi.jpg" alt="Sertifikat 8">
+                                <p>Get Started Building with Power BI</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/create-effective-learning-experiences-for-adult-learners-1.png" alt="Sertifikat 9">
+                                <p>Create effective learning experiences for adult learners</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/introduction-to-adult-learning-theory.png" alt="Sertifikat 10">
+                                <p>Introduction to adult learning theory</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/create-interactive-learning-experiences-using-microsoft-tools-1.png" alt="Sertifikat 11">
+                                <p>Create interactive learning experiences using Microsoft tools</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/write-your-csharp.png" alt="Sertifikat 12">
+                                <p>Write your first C# code</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/equip-and-support-learners-with-AI-tools-from-microsoft-1.png" alt="Sertifikat 13">
+                                <p>Equip and support learners with AI tools from Microsoft</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/enhance-teaching-and-learning-with-microsoft-copilot-1.png" alt="Sertifikat 14">
+                                <p>Enhance teaching and learning with Microsoft Copilot</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/embark-on-your-aI-journey-with-free-aI-tools-from-microsoft-education.png" alt="Sertifikat 15">
+                                <p>Embark on your AI journey with free AI tools from Microsoft Education</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/empower-educators-to-explore-the-potential-of-artificial-intelligence-1.png" alt="Sertifikat 16">
+                                <p>Empower educators to explore the potential of artificial intelligence</p>
+                            </div> 
+                            <div class="certificate-item">
+                                <img src="images/describe-cloud-service-types-1.png" alt="Sertifikat 17">
+                                <p>Describe cloud service types</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/describe-the-benefits-of-using-cloud-services-1.png" alt="Sertifikat 18">
+                                <p>Describe the benefits of using cloud services</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/describe-cloud-computing-1.png" alt="Sertifikat 19">
+                                <p>Describe cloud computing</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/learn-the-basics-of-web-accessibility-1.png" alt="Sertifikat 20">
+                                <p>Learn the basics of web accessibility</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/build-your-first-html-webpage-1.png" alt="Sertifikat 21">
+                                <p>Build your first HTML webpage</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/use-css-styles-in-a-webpage-1.png" alt="Sertifikat 22">
+                                <p>Use CSS styles in a webpage</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/introduction-to-generative-ai -concepts-1.png" alt="Sertifikat 23">
+                                <p>Introduction to generative AI concepts</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/discover-power-apps-for-educators-and-reclaim-your-time-101-1.png" alt="Sertifikat 24">
+                                <p>Discover Power Apps for Educators and reclaim your time 101</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/manage-workspaces-in-power-bi-service-1.png" alt="Sertifikat 25">
+                                <p>Manage workspaces in Power BI service</p>
+                            </div> 
+                            <div class="certificate-item">
+                                <img src="images/manage-semantic-models-in-power-bI-1.png" alt="Sertifikat 26">
+                                <p>Manage semantic models in Power BI</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/choose-a-power-bi-model-framework-1.png" alt="Sertifikat 27">
+                                <p>Choose a Power BI model framework</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/clean-transform-and-load-data-in-power-bi-1.png" alt="Sertifikat 28">
+                                <p>Clean, transform, and load data in Power BI</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/get-data-in-power-bi-1.png" alt="Sertifikat 29">
+                                <p>Get data in Power BI</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/get-started-building-with-power-bi-1.png" alt="Sertifikat 30">
+                                <p>Get started building with Power BI</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/discover-data-analysis-1.png" alt="Sertifikat 31">
+                                <p>Discover data analysis</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/fundamentals-of-machine-learning-1.png" alt="Sertifikat 32">
+                                <p>Fundamentals of machine learning</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/fundamental-ai-concepts-1.png" alt="Sertifikat 33">
+                                <p>Fundamental AI Concepts</p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/python-fundamental-for-data-science.jpg" alt="Sertifikat 34">
+                                <p>Python Fundamental for Data Science/p>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="images/introduction-to-data-science-with-r.jpg" alt="Sertifikat 35">
+                                <p>Introduction to Data Science with R</p>
+                            </div>
+                        </div>
+                        <div class="show-more-container">
+                            <button id="show-more-btn" class="btn btn-primary">Show More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="section">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Services</h2>
+                    <p>What I Provide</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-modal-target="web-dev-modal" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Web Developer</h3>
+                        <p class="service-link">Lihat Detail <i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                    <div class="service-card" data-modal-target="data-analysis-modal" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <h3>Data Analysis</h3>
+                        <p class="service-link">Lihat Detail <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="portfolio" class="section">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Portfolio</h2>
+                    <p>My Creative Works</p>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="images/coming-soon.png" alt="Portfolio 1">
+                    </div>
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                        <img src="images/coming-soon.png" alt="Portfolio 2">
+                    </div>
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="600">
+                        <img src="images/coming-soon.png" alt="Portfolio 3">
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Contact Me</h2>
+                    <p>Get in touch</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                        <div class="info-item">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <div>
+                                <h4>WHATSAPP</h4>
+                                <p>+62 815 7502 1460</p>
+                                <a href="https://wa.me/6281575021460" target="_blank">Send <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>LOCATION</h4>
+                                <p>Semarang, Indonesia</p>
+                                <a href="http://googleusercontent.com/maps/google.com/7" target="_blank">Maps <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="social-info-contact">
+                            <h4>SOCIAL INFO</h4>
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com/h.vira_?igsh=MXhtb3VveWI5ZGJ0bA" aria-label="Instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://github.com/safirasalsabila421" aria-label="GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/safira-khoirulanisa-salsabila-b3b833220" aria-label="LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" action="https://formspree.io/f/xnnvekwn" method="POST" data-aos="fade-left" data-aos-delay="400">
+                        <input type="email" name="email" placeholder="Email *" required>
+                        <input type="text" name="subject" placeholder="Your Subject *" required>
+                        <textarea name="message" placeholder="Your Message *" rows="7" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <nav class="bottom-nav">
+        <a href="#home" class="nav-item active" aria-label="Home" data-tooltip="Home">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="#about" class="nav-item" aria-label="About" data-tooltip="About">
+            <i class="fa-solid fa-user"></i>
+        </a>
+        <a href="#resume" class="nav-item" aria-label="Resume" data-tooltip="Resume">
+            <i class="fa-solid fa-file-lines"></i>
+        </a>
+        <a href="#services" class="nav-item" aria-label="Services" data-tooltip="Services">
+            <i class="fa-solid fa-heart"></i>
+        </a>
+        <a href="#portfolio" class="nav-item" aria-label="Portfolio" data-tooltip="Portfolio">
+            <i class="fa-solid fa-briefcase"></i>
+        </a>
+        <a href="#contact" class="nav-item" aria-label="Contact" data-tooltip="Contact">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    </nav>
+    
+    <a href="#home" class="scroll-to-top">
+        <span>TO TOP</span>
+        <div class="progress-bar-container">
+            <div class="progress-bar"></div>
+        </div>
+    </a>
+    
+    <div class="certificate-modal">
+        <span class="modal-close">×</span>
+        <img class="modal-content-img" id="modal-img-id">
+    </div>
+    
+    <div class="service-modal" id="web-dev-modal">
+        <div class="modal-content">
+            <span class="modal-close-btn">&times;</span>
+            <h3>Web Developer</h3>
+            <h4>What I Provide</h4>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Website Design and Development</li>
+                <li><i class="fa-solid fa-check"></i> Front-End and Back-End Development</li>
+                <li><i class="fa-solid fa-check"></i> Responsive and Mobile-Friendly Design</li>
+                <li><i class="fa-solid fa-check"></i> Integration with Databases and APIs</li>
+            </ul>
+        </div>
+    </div>
+    <div class="service-modal" id="data-analysis-modal">
+        <div class="modal-content">
+            <span class="modal-close-btn">&times;</span><h3>Data Analysis</h3>
+            <h4>What I Provide</h4>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Data Collection and Cleaning</li>
+                <li><i class="fa-solid fa-check"></i> Exploratory Data Analysis (EDA)</li>
+                <li><i class="fa-solid fa-check"></i> Statistical Modeling</li>
+                <li><i class="fa-solid fa-check"></i> Interactive Dashboard Creation (Tableau/Power BI)</li>
+                <li><i class="fa-solid fa-check"></i> Reporting and Insights Presentation</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
